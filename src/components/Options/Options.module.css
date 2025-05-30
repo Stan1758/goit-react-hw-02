@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  justify-content: stretch;
+  padding-left: 0;
+}
+.button {
+  width: 100px;
+  padding: 10px;
+  border: 2px solid wheat;
+  border-radius: 8px;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+.li {
+  list-style: none;
+}
+.button:hover {
+  border-color: lightskyblue;
+}
+.resetBtn:hover {
+  border-color: rgba(255, 122, 122, 0.817);
+}

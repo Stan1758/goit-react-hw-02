@@ -1,0 +1,27 @@
+.list {
+  gap: 10px;
+  margin: 0;
+  padding-left: 0;
+}
+.button {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 16px;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+.item {
+  margin-bottom: 10px;
+  box-sizing: content-box;
+  background-color: #1a1a1a;
+  width: 140px;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  list-style: none;
+  &:last-child {
+    color: lightskyblue;
+    font-weight: 500;
+  }
+}
